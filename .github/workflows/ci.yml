@@ -41,4 +41,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/Josito7777/aula-web-ci:latest
+          tags: ghcr.io/${{ github.actor }}/aula-web-ci:latest
